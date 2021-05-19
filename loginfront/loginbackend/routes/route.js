@@ -9,6 +9,13 @@ router.post('/signup', (request, response) =>{
         email: request.body.email,
         password: request.body.password
     })
+    signupUser.save()
+    .then(data => {
+        response.json(data)
+    })
+    .catch(error =>){
+        response.json(error)
+    }
 })
 
 
