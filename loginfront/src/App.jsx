@@ -70,7 +70,7 @@ class App  extends Component {
           <div className = 'container'>
             <div className = 'form-div'>
               <form onSubmit={this.onSubmit}>
-                
+
                 <input type = 'text'
                 placeholder = 'Full Name'
                 onChange = {this.changeFullName}
@@ -79,7 +79,7 @@ class App  extends Component {
 
                 <input type = 'text'
                 placeholder = 'Username'
-                onChange = {this.changeUsername}
+                onChange = {this.changeUserName}
                 value = {this.state.username}
                 className = 'form-control form-group'/>
 
