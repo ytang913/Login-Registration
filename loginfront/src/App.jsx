@@ -6,12 +6,16 @@ class App  extends Component {
     constructor(){
         super()
         this.state = {
-            fullName = '',
-            username = '',
-            email = '',
-            password = '',
+            fullName: '',
+            username: '',
+            email:'',
+            password: '',
 
         }
+        this.changeFullName = this.changeFullName.bind(this)
+        this.changeEmail = this.changeEmail.bind(this)
+        this.changeUserName = this.changeUserName.bind(this)
+        this.changePassword = this.changePassword.bind(this)
     }
   
   changeFullName(event) {
