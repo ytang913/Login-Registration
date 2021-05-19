@@ -5,7 +5,7 @@ const dotenv = require('dotenv')
 
 dotenv.config()
 
-mongoose.connect(process.env.DATABASE_ACCESS)
+mongoose.connect(process.env.DATABASE_ACCESS, () => console.log("Database has been connected"))
 
 
 app.listen(4000, () => console.log("server is up and running"))
