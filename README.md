@@ -45,7 +45,9 @@ When the user puts their information in the empty form and clicks on submit, the
                             
 The information is stored in the states and then it will be saved in the arraylist registered.
 
-Then the information from registered will be sent to the backend server which is done using axios. Axios essentially connects the frontend and backend so that the information from the frontend can be passsed to the backend. 
+Then the information from registered will be sent to the backend server which is done using axios. 
+
+Axios essentially connects the frontend and backend so that the information from the frontend can be passsed to the backend. 
 
 # Result when the user initially runs both frontend and backend
 ![](images/thumbnail.jpg)
