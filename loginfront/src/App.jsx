@@ -96,10 +96,7 @@ class App  extends Component {
                 value = {this.state.password}
                 className = 'form-control form-group'/> 
 
-                <input type = 'submit' className = 'btn, btn-danger btn-block' value = 'Submit'/>
-
-
-                
+                <input type = 'submit' className = 'btn, btn-danger btn-block' value = 'Submit'/>  
               </form>
             </div>
           </div>
