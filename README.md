@@ -6,6 +6,16 @@ This project is a Login Registration Application built using React.JS, Express, 
 
 Users are tasked to enter in four fields: Full Name, Username, Email, and Password
 
+To run the application the user must first go the terminal and type in cd loginfront
+                       
+Then the user should enter in npm start to start up the React application
+
+The user should then restart the terminal and type in cd loginbackend
+                   
+Then type in npm start to run the server and connect to the Mongoose Library
+                        
+When successfully connected the terminal should say "Database is connected"
+                        
 # Documentation
 
 # Backend
