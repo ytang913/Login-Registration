@@ -31,7 +31,9 @@ LoginModels.js is created for the schema and Mongoose is housed here and within 
 
 The Four fields: Full Name, Username, Email, and password is what the user will enter in, while the Date field will allow me to know which month,day, and year they entered in their information.  
                         
-MongoDB Cloud Atlas is used to house the data received from Post requests and it allows me to see the requests. A cluster was created within MongoDB Cloud Atlas and it is powered by AWS.
+MongoDB Cloud Atlas is used to house the data received from Post requests and it allows me to see the requests.
+
+A cluster was created within MongoDB Cloud Atlas and it is powered by AWS.
                         
 # Frontend
 
