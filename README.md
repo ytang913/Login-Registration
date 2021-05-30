@@ -2,7 +2,7 @@
 
 # About
 
-This project is a Login Registration Application built using React.JS, Express, MongoDB,Bootstrap CSS, and axios.
+This project is a Login Registration Application built using React.JS, Express, MongoDB, Bootstrap CSS, and axios.
 
 Users are tasked to enter in four fields: Full Name, Username, Email, and Password
 
