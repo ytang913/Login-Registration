@@ -24,7 +24,7 @@ Express and MongoDB was used for this portion.
 
 server.js is created for the backend server and also connected to Mongoose
 
-When a user enters in their information a POST request is sent to the backend
+When a user enters in their information, a POST request is sent to the backend
 and router.post will handle it. The Post request will also create a new schema
                         
 LoginModels.js is created for the schema and Mongoose is housed here and within it there are five fields Full Name, Username, Email, password, and Date.
